@@ -16,16 +16,10 @@ export default function Checkout() {
             <div className="">
                 <div className="w-[380px] h-[833px] ml-[530px] ">
                     <div className="w-[324px] h-[180px] mt-7 left-[28px] relative ">
-                    <Image
-      className="ml-12 "
-      src={"/Vector8.png"}
-      alt=""
-      width={78.47}
-      height={78.47}
-    />
-    <p className="w-[231px] mt-4 text-[18px] font-bold flex justify-between leading-[26px] ">BECOME A NIKE MEMBER</p>
+                    
+    <p className="w-[231px] mt-4 text-[18px] font-bold flex justify-between leading-[26px] ">Billing details</p>
 
-    <p className="w-[280px] mt-4 text-[14px] font-bold flex justify-between leading-[26px] text-[#8D8D8D]  ">Create your Nike Member profile and get first access to the very best of Nike products, inspiration and community.</p>
+    
     <div className="w-[324px] h-[561px] mt-4 text-[14px]">
     <input className="border-[1px] pt-[5px]  pl-[17px] w-[324px] h-[40px] mt-4" type="email " placeholder="Email address" />
     <input className="border-[1px] pt-[5px]  pl-[17px] w-[324px] h-[40px] mt-4" type="password" placeholder="Password" />
@@ -65,6 +59,38 @@ export default function Checkout() {
                     </div>
                 </div>
             </div>
+
+            <div className="w-[1440px] h-[300px]  flex mt-[2">
+    <div className="w-[373px] h-[108px] mt-[200px] ml-[100px]">
+<div className="w-[205px] h-[48px] text-[32px] leadind-[48px] font-medium ">Free Delivery</div>
+<p className="w-[376px] h-[60px] mp-[2607px] text-[20px] leading-[30px] ">For all oders over $50, consectetur adipim scing elit.</p>
+
+
+    </div>
+
+
+    {/* pg */}
+    <div className="w-[376px] h-[108px] mt-[200px] ml-[214px]">
+<div className="w-[205px] h-[48px] text-[29px] leadind-[48px] font-medium ">90 Days Return</div>
+<p className="w-[376px] h-[60px] mp-[2607px] text-[20px] leading-[30px] ">If goods have problems, consectetur adipim scing elit.</p>
+
+
+    </div>
+
+{/* pg3 */}
+
+<div className="w-[376px] h-[108px] mt-[200px] ml-[214px]">
+<div className="w-[205px] h-[48px] text-[25px] leadind-[48px] font-medium ">Secure Payment</div>
+<p className="w-[376px] h-[60px] mp-[2607px] text-[20px] leading-[30px] ">100% secure payment, consectetur adipim scing elit.</p>
+
+
+    </div>
+
+
+    
+</div>
+
+
         </div>
         </div>
     </div>

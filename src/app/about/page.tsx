@@ -34,9 +34,9 @@ export default function About() {
 
             {/*  four image selller active*/}
             <div className="w-[1170px] mt-[80px] h-[230px] gap-[30px] relative left-[135px] flex">
-                <div className="w-[270px] h-[230px] rounded-[4px] border-[1px] ">
+                <div className="w-[270px] h-[230px] rounded-[4px] border-[5px] ">
                     <div className="w-[169px] h-[170px]  ">
-                    <div className="w-[80px] h-[80px]  ">
+                    <div className="w-[80px] h-[80px] bg-gray-500 rounded-[80px] pl-[11px] pt-[11px]">
                             <div className="w-[58px] rounded-[58px] h-[58px] bg-black pl-[11px] pt-[11px] ">
                             <Image src={'/img2/icon-Shopping.png'} alt='image' width={51} height={53} />
 
@@ -194,7 +194,7 @@ export default function About() {
                         <div className="w-[249px] h-[57px]  ">
                             <p className="w-[242px] h-[28px]  ">FREE AND FAST DELIVERY</p>
                             <p className='w-[249px] h-[21px]' >Free delivery for all orders over $140</p>
-                            <div className="w-[249px] h-[21px] bg-black pl-[11px] pt-[11px] ">
+                            <div className="w-[249px] h-[21px]  pl-[11px] pt-[11px] ">
 
                             </div>
 
@@ -214,7 +214,7 @@ export default function About() {
                         <div className="w-[169px] h-[170px]  ">
                             {/*  image*/}
                             <div className="w-[80px] h-[80px]  ">
-                                <div className="w-[58px] h-[58px] bg-black pl-[11px] pt-[11px] ">
+                                <div className="w-[58px] h-[58px]  pl-[11px] pt-[11px] ">
 
                                 </div>
                             </div>
@@ -234,7 +234,7 @@ export default function About() {
                         <div className="w-[169px] h-[170px]  ">
                             {/*  image*/}
                             <div className="w-[80px] h-[80px]  ">
-                                <div className="w-[58px] h-[58px] bg-black pl-[11px] pt-[11px] ">
+                                <div className="w-[58px] h-[58px]  pl-[11px] pt-[11px] ">
 
                                 </div>
                             </div>

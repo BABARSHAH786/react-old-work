@@ -4,10 +4,10 @@ export default function SignUP() {
     return (
         <div>
             <div>
-
+               
 
                 {/* white work */}
-
+             
                 <div className="w-[1305px] h-[781px] top-[200px] gap-[129px] flex">
                     <div className="w-[805px] h-[781px] topright-4 bottomright-4 ">
                         <div className="w-[919px] h-[706px] top-[75px] left-[-8px]">
@@ -23,7 +23,7 @@ export default function SignUP() {
 
                             <div className="w-[339px] h-[30px] ">
 
-                                <p className="font-[500px] font-inter text-[36px] text-black tracking-[%4] leading-[30px]">Log in to Exclusive</p>
+                                <p className="font-[500px] font-inter text-[36px] text-black tracking-[%4] leading-[30px]">Create an account</p>
 
                             </div>
                             <div className="w-[191px] h-[24px] ">
@@ -37,7 +37,7 @@ export default function SignUP() {
                                     <div className="w-[49px] h-[24px]">
                                         <form>
                                             {/* <p>Name</p> */}
-
+                                            <input type="text" placeholder="Name" />
                                         </form>
                                     </div>
                                     {/* email */}
@@ -69,16 +69,29 @@ export default function SignUP() {
 
                                 </div>
                             </div>
-                            <div className="w-[371px]  h-[56px] gap-[87px] flex ">
-                                <div className=" w-[143px] h-[56px] gap-[16px] flex rounded-[4px] pt-[16px] pr-[48px] pb-[16px] pl-[48px] bg-[#DB4443]  text-white ">
-                                    <button className="w-[97px] h-[24px]  font-medium  text-[16px] leading-[24px]">Log.In</button>
-                                    <button className="w-[141px] h-[24px] ml-[117px] text-[16px] leading-[24px] text-[#DB4443]   font-normal">Forget.Password?</button>
+                            <div className="w-[371px]  h-[188px] gap-[16px]">
+                                <div className="h-[56px] gap-[16px] rounded-[4px] pt-[16px] pr-[122px] pb-[16px] pl-[122px] bg-[#DB4443]  text-white ">
+                                    <button className="w-[127px] h-[24px] pt-[] pr-[] pb-[] pl-[] font-medium ">Create Account</button>
+
 
                                 </div>
 
 
                             </div>
-                            
+                            <div className="w-[371px] h-[56px] rounded-[4px] border-spacing-1 pt-[16px] pr-[88px] pb-[16px] pl-[88px] gab-[10px] ">
+                                <div className="w-[199px] h-[24] gap-[16px] flex">
+                                    <Image className="pt-[14px] pl-[9px] " src={"/Igoogle.png"} alt="" width={34} height={22} />
+                                    <p className="w-[159px] h-[24px] leading-[24px] text-[16px]">Sign up with Google</p>
+
+
+                                </div>
+                                <div className="w-[248px] h-[28px] gap-[16px] flex">
+                                    <div className="w-[185px] h-[24px] "><p className="leading-[24px] text-[16px]">Already have account?</p></div>
+                                    <div className="w-[47px] h-[28px] gap-[4px]"> <p className="h-[24px] leading-[24px] text-[16px]">
+                                    <Link href="/login">Login</Link>
+                                    </p></div>
+                                </div>
+                            </div>
 
 
 
@@ -97,8 +110,8 @@ export default function SignUP() {
 
                 </div>
 
-
-
+                
+                
 
 
 

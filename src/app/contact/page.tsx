@@ -1,87 +1,151 @@
-import { FaPhoneAlt,  } from 'react-icons/fa';
+import Image from "next/image";
+import Link from "next/link";
 
-export default function Contact(){
-    return(
+
+export default function Checkout() {
+    return (
         <div>
-            <div className="w-[114px] h-[21px] flex relative left-[135px] mt-10">
-            <p className="w-[42px] h-[21px]">Home 
-
-</p>
-<p className="ml-1"> /</p>
-<p className="w-[42px] h-[21px] ml-1"> About
-
-</p>
-
-            </div>
-            <div className='flex'>
-        <div className='w-[340px] h-[457px] relative left-[135px] '>
-          <div className='w-[270px] h-[366px] left-[35px] gap-[32px]  '>
-            <div className='w-[262px] h-[122px] gap-[24px] '>
-              <div className='w-[135px] h-[40px] gap-[16px] mt-4 flex'>
-                {/* image */}
-                <div className='bg-[#DB4444] pl-[10px] pt-[10px] w-[40px] rounded-[40px] '>
-                <FaPhoneAlt className=' ' />
+            <div>
+                <div>
+                    <Image className="  " src={"/contact.png"} alt="" width={1440} height={900} />
                 </div>
-                <p className='font-semibold'>Call To Us</p>
-                </div>
-              <div className='w-[262px] text-[14px] mt-4 h-[58px] gap-[16px]'>
-                <p>We are available 24/7, 7 days a week.</p>
-                <p  className='mt-2'>Phone: +8801611112222</p>
-              </div>
-              <hr />
-              <p className='w-[270px] bg-black h-[1px] mt-4 '></p>
 
-              </div>
-              <div className='w-[250px] h-[180px] gap-[24px] mt-8 '>
-                <div className='w-[px] h-[40px] gap-[16px] '>
-                {/* image */}
-                <div className='w-[px] h-[40px] gap-[16px] mt-4 flex'>
-                {/* image */}
-                <div className='bg-[#DB4444] pl-[10px] pt-[10px] w-[40px] rounded-[40px] '>
-                <FaPhoneAlt className=' ' />
+
+
+
+
+
+
+                <div className="ml-[250px] ">
+<div className="flex" >
+                <Image className="  " src={"/ad.png"} alt="" width={20} height={10} />
+
+                    <p className="w-[94px] h-[36px]  text-[24px] leading-[36px]  font-medium">Address</p>
+                    </div>
+                    <p className="w-[108px] h-[24px]  text-[16px] leading-[24px]  ">236 5th SE Avenue, New York NY10000, United States</p>
+                    
+                   
+                 <div className="flex">  <p className="w-[108px] h-[24px] mt-[100px] text-[24px] leading-[36px]  ">Phone</p></div>
+                    <p className="w-[108px] h-[24px]  text-[16px] mt-[40px] leading-[24px] ">Mobile: +(84) 546-6789
+                        Hotline: +(84) 456-6789</p>
+
+                       <div className="flex mr-[90px]"> 
+                    <p className="w-[103px]  font-medium h-[24px]  text-[24px] mt-[100px] leading-[36px] ml-[02px] ">Working.Timel</p>
+                    </div>
+                    <p className="w-[108px] h-[24px]  text-[16px] leading-[24px]  mt-[30px] ">Monday-Friday: 9:00 - 22:00
+                        Saturday-Sunday: 9:00 - 21:00</p>
+                    <p className="w-[108px] h-[24px]  text-[20px] leading-[30px]  "></p>
+                    <p className="w-[178px] h-[36px]  text-[24px] leading-[36px] text-[#B88E2F]  "></p>
+                </div>
+
+
+
+
+
+                {/* login work */}
+
+
+
+
+
+                <div className=" mt[-900px] ">
+                    <div className="w-[380px] mt-[-540px] h-[833px] ml-[730px] ">
+                        <div className="w-[324px] h-[180px] mt-7 left-[28px] relative ">
+
+                            <p className="w-[231px] mt-4 text-[18px] font-bold flex justify-between leading-[26px] "></p>
+
+
+                            <div className="w-[324px] h-[561px] mt-4 text-[14px] border-gray-600">
+                                <input className="border-[1px] pt-[5px]  pl-[17px] w-[324px] h-[40px] mt-4" type="Your name" placeholder="Your name" />
+                                <input className="border-[1px] pt-[5px]  pl-[17px] w-[324px] h-[40px] mt-4" type="Email address" placeholder="Email address" />
+                                <input className="border-[1px] pt-[5px]  pl-[17px] w-[324px] h-[40px] mt-4" type="Subject " placeholder="Subject)" />
+                                <input className="border-[1px] pt-[5px]  pl-[17px] w-[324px] h-[40px] mt-4" type="Country / Region" placeholder="Country / Region" />
+                                <input className="border-[1px] pt-[5px]  pl-[17px] w-[324px] h-[40px] mt-4" type="Message" placeholder="Message" />
+
+
+                                <div className="w-[215px] h-[64px]  mt-[100px] ml-[4px] border-[1px] border-black  rounded-[10px]">
+
+                                    <Link className=" " href="/blog">
+
+
+
+                                        <p className="w-[119px] h-[30px] text-[20px] leading-[30px] mt-[10px] ml-[40px] font-medium ">Sbumit</p>
+                                    </Link>
+                                </div>
+
+
+                                {/* text */}
+
+
+
+
+
+
+
+
+
+
+
+
+
+                                <div className="w-[1440px] h-[300px] mt-[0px] flex ml-[-500px] ">
+                                    <div className="w-[373px] h-[108px] mt-[200px] pl-[-1027px]">
+                                        <div className="w-[205px] h-[48px] text-[32px] leadind-[48px] font-medium ">Free Delivery</div>
+                                        <p className="w-[376px] h-[60px] mp-[2607px] text-[20px] leading-[30px] ">For all oders over $50, consectetur adipim scing elit.</p>
+
+
+                                    </div>
+
+
+                                    {/* pg */}
+                                    <div className="w-[376px] h-[108px] mt-[200px] ml-[234px]">
+                                        <div className="w-[205px] h-[48px] text-[29px] leadind-[48px] font-medium ">90 Days Return</div>
+                                        <p className="w-[376px] h-[60px] mp-[2607px] text-[20px] leading-[30px] ">If goods have problems, consectetur adipim scing elit.</p>
+
+
+                                    </div>
+
+                                    {/* pg3 */}
+
+                                    <div className="w-[376px] h-[108px] mt-[200px] ml-[214px]">
+                                        <div className="w-[205px] h-[48px] text-[25px] leadind-[48px] font-medium ">Secure Payment</div>
+                                        <p className="w-[376px] h-[60px] mp-[2607px] text-[20px] leading-[30px] ">100% secure payment, consectetur adipim scing elit.</p>
+
+
+                                    </div>
+
+
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
                 </div>
-                <p className='font-semibold '>Write To US</p>
-                </div>
-                {/* <hr /> */}
-                </div>
-                
-
-                <div className='w-[250px] h-[116px] gap-[16px] grid mt-10'>
-                <p className='w-[250px] h-[42px] '>Fill out our form and we will contact you within 24 hours.</p>
-                  <p className='w-[232px] h-[21px] mt-4'>Emails:customer@exclusive.com</p>
-                  <p className='w-[232px] h-[21px] mt-4 '>Emails: support@exclusive.com</p>
-                  
-                </div>
-                
-
-              </div>
             </div>
         </div>
+     
 
-          <div className='w-[800px] h-[457px] relative left-[135px] rounded-[4px] '>
-            <div className='w-[737px] h-[377px] left-[31px]  '>
-              <div className='w-[50px] gap-[16px] flex'>
-                <input className='bg-slate-200 w-[235px] ' value='' placeholder='Your Name'  />
-                <input className='bg-slate-200 w-[235px] ' value='' placeholder='Your Email'  />
-                <input className='bg-slate-200 w-[235px] ' value='' placeholder='Your Phone'  />
 
-                
-              
-              </div>
-              <textarea className='mt-7' name="message" rows={9} cols={67}>     Write Comment here</textarea>
-              <div className='w-[215px] h-[56px] relative left-[400px] mt-7 bg-[#DB4444] pt-4 pr-[48px] pb-4 pl-[48px] text-white justify-items-end '>
-                <button>
-                    Send Message
-                </button>
-              </div>
-
-              
-              </div>
-          </div>
-          </div>
-          
-
-          </div>
     )
 }

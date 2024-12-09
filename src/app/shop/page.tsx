@@ -1,5 +1,5 @@
 import Image from "next/image"
-export default function About() {
+export default function Shop() {
     return (
         <div>
             <Image className="pt-[14px] pl-[9px] " src={"/background1.png"} alt="" width={1720} height={1520} />

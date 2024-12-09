@@ -4,32 +4,32 @@ import Link from "next/link"
 export default function SecTop(){
     return(
         <div>
-            <div className="w-[1440px] h-[900px] mt-[px] flex bg-[#FBEBB5]">
+            <div className="max-ss:w-[439px] max-ss:pl-[40px] w-[1440px] h-[900px] mt-[px] flex bg-[#FBEBB5]">
 
-<div className="w-[440px] h-[276px]  ml-[202px]">
+<div className="w-[440px] h-[276px] max-ss:ml-[0px] ml-[202px]">
 
-  <p className="w-[440px] h-[192px] mt-[px]  ml-[202px] font-medium leading-[96px]
+  <p className="max-ss:ml-[0px] w-[440px] h-[192px] mt-[px]  ml-[202px] font-medium leading-[96px]
    text-[64px]"
   >Rocket single seater </p>
 
-<div className="w-[440px] h-[276px]  ml-[202px] border-black" >
+<div className="max-ss:ml-[0px] w-[440px] h-[276px]  ml-[202px] border-black" >
 <p className="w-[121px] h-[36px]  text-black ml-[206px]
 font-medium leading-[36px]
    text-[24px]">Shop Now</p>
      </div>
 
    </div>
-   <div className="w-[853px] ml-10">
-   <Image className="pt-[14px] pr-[190px]  " src={"/image 1.png"} alt="" width={853} height={1000} />
+   <div className="max-ss:w-[439px] w-[853px] ml-10 max-ss:ml-[0px]">
+   <Image className="pt-[14px] pr-[190px] max-ss:ml-[0px]  " src={"/image 1.png"} alt="" width={853} height={1000} />
 </div>
 </div>
 
 {/* new wo */}
 <div className="w-[1440px] h-[672px] mt-[px] bg-white"  > 
-<div className="w-[605px] h-[552px] mt-[px] flex  ml-[100px]"> 
-  <div  className="w-[1092px] h-[1641px] mt-[122px]  ml-[-54px]"> 
+<div className="w-[605px] h-[552px] max-ss:ml-[0px]  mt-[px]   ml-[100px]"> 
+  <div  className="max-ss:ml-[-50px] w-[1092px] h-[1641px] mt-[122px]  ml-[-54px]"> 
     
-  <Image className="pt-[14px] pr-[190px]  " src={"/image 2.png"}
+  <Image className="max-ss:w-[390px] pt-[14px] pr-[190px] max-ss:pr-[10px] " src={"/image 2.png"}
    alt="" width={853} height={1000} />
   </div>
   </div>
@@ -39,7 +39,7 @@ font-medium leading-[36px]
   <p className="w-[182px] h-[54px] mt-[px]  ml-[205px] font-medium leading-[36px]
      text-[24px] ">View More</p>
 
-<div className="w-[605px] flex h-[562px] mt-[px]  ml-[735px]" > 
+<div className="max-ss:ml-0 max-ss:mt-[290px] w-[605px]  h-[562px] mt-[px]  ml-[735px]" > 
   <div>
   <Image className="pt-[14px] pr-[190px] mt-[-540px] " src={"/image 3.png"}
    alt="" width={853} height={1000} />
@@ -56,7 +56,7 @@ font-medium leading-[36px]
 <div className="w-[1440px] h-[777px] mt-[13px]"> 
 <p className="w-[311px] h-[54px] mt-[178px]  ml-[564px] font-medium leading-[36px]
      text-[24px] ">Top Picks For You</p>
-     <div className="flex">
+     <div className="flex max-ss:grid max-ss:h-[1420px] ">
      <div className="w-[287px] h-[372px] ml-[100px]">
      <Image className="  " src={"/image 4.png"} alt="" width={450} height={340} />
   <div className="w-[194px] h-[71px] ml-[100px] mt-[px]"> 
@@ -67,7 +67,7 @@ font-medium leading-[36px]
   </div>
   {/* second */}
   <div className="w-[287px] h-[372px] ml-[100px]">
-     <Image className="  " src={"/image 5.png"} alt="" width={450} height={340} />
+     <Image className=" flex " src={"/image 5.png"} alt="" width={450} height={340} />
   <div className="w-[194px] h-[71px] ml-[100px] mt-[px]"> 
     <p className="text-[16px] leading-[24px]">Granite dining table with dining chair</p>
     <p className="text-[24px] leading-[36px]">Rs. 25,000.00</p>
@@ -126,12 +126,12 @@ font-medium leading-[36px]
          </div> */}
  </div>
  {/* new */}
- <div className="w-[1440px] h-[639px] mt-[-440px]   flex">
-    <div>
+ <div className="w-[1440px] h-[639px] mt-[-440px] max-ss:grid max-ss:mt-[430px]  flex">
+    <div className="max-ss:w-[420px] ">
     <Image className=" mt-[-440px]  " src={"/image.png"} alt="" width={850} height={640} />
 
     </div>
-    <div className="w-[331px] h-[205px] top-[200px] left-[100px] mt-[-100px] mr-[96px]"> 
+    <div className="max-ss:mt-[-400px] max-ss:ml-[90px] w-[331px] h-[205px] top-[200px] left-[100px] mt-[-100px] mr-[96px]"> 
 <p  className="w-[149px] h-[36px] top-[200px] mr-[900px] border-[1px] font-medium size-[24px] leading-[36px]">New Arrivals</p>
 <p className="w-[331px] h-[72px] font-black size-[48px] leading-[72px]"> Asgaard sofa</p>
    <div className="w-[255px] h-[64px] top-[2827px] right-[1050px] border-[1px]  ">
@@ -145,32 +145,32 @@ font-medium leading-[36px]
 
  </div>
 
- <div className="w-[1440px] h-[944px] relative left-[480px] ">
-    <div className="w-[479px] h-[91px] "> 
-        <p className="w-[174px] h-[54px] text-[36px] leading-[56px] font-medium"> Our Blogs</p>
+ <div className="max-ss:left-0 max-ss:w-[430px] w-[1440px] h-[944px] relative left-[480px] ">
+    <div className=" w-[479px] h-[91px] "> 
+        <p className="max-ss:ml-2 w-[174px] h-[54px] text-[36px] leading-[56px] font-medium"> Our Blogs</p>
         </div> 
-<p className="w-[479px] h-[24px] text-[16px] leadind-[24px] font-medium">Find a bright ideal to suit your taste with our great selection</p>
+<p className="max-ss:ml-2 w-[479px] h-[24px] text-[16px] leadind-[24px] font-medium">Find a bright ideal to suit your taste with our great selection</p>
  </div>
 {/* one pic */}
 
 <div className="w-[1240px] h-[679px] relative left-[100px]">
-<div className="w-[393px] h-[555px] ml-[100px]">
-<div className="w-[393px] h-[393px] ml-[100px] rounded-[10px]">
+<div className="w-[393px] h-[555px] ml-[10px]">
+<div className="w-[393px] h-[393px] ml-[10px] rounded-[10px]">
 <Image className=" mt-[-740px] " src={"/cup.png"} alt="" width={450} height={340} />
 </div>
 <div className="w-[339px] h-[129px] ml-[50px] ">
-  <p className="w-[339px] h-[30px] ml-[100px] text-[20px] leading-[30px] ">Going all-in with millennial design</p>
+  <p className="w-[339px] h-[30px] ml-[10px] text-[20px] leading-[30px] ">Going all-in with millennial design</p>
   <div className="w-[130px] h-[46px] mr-[50px] underline font-bold text-[20px] border-black  text-center ml-[200px]">Read More</div>
   <div className="w-[223px] h-[24px] gap-[ml-[5px] ">
-<div className="w-[73px] h-[24px] flex">
+<div className="w-[73px] h-[24px] ">
   <div className="flex">
-  <div className="flex gap-[20px] ml-[100px] ">
-<Image className=" ml-[30px] " src={"/Group (2).png"} alt="" width={15} height={10} /> 5.min
+  <div className="max-ss: flex gap-[20px] ml-[100px] ">
+<Image className=" ml-[10px] " src={"/Group (2).png"} alt="" width={15} height={10} /> 5.min
 </div>
 </div>
 <div className=" w-[132px] h-[24px] ml-[100px] flex">
 <Image className="  w-[15px] h-[25px] " src={"/card.png"} alt="" width={15} height={10} />
- <p className="mt[-90px]">10.Jun.2025</p>
+ <p className="mt[-90px] ml-[10px] ">10.Jun.2025</p>
  </div>
 
 
@@ -187,19 +187,19 @@ font-medium leading-[36px]
 
 
 {/* two pic */}
-<div className="w-[1240px] h-[679px] relative left-[524px] mt-[60px] ">
-<div className="w-[393px] h-[555px] ml-[100px]">
-<div className="w-[393px] h-[393px] ml-[100px] rounded-[10px]">
+<div className="w-[1240px] h-[679px] ml-[50px] relative left-[524px] mt-[60px] ">
+<div className="w-[393px] h-[555px] ml-[50px]">
+<div className="w-[393px] h-[393px] ml-[50px] rounded-[10px]">
 <Image className=" mt-[-740px] " src={"/laptop.png"} alt="" width={450} height={340} />
 </div>
 <div className="w-[339px] h-[129px] ml-[px] ">
-  <p className="w-[339px] h-[30px] ml-[130px] text-[20px] leading-[30px] ">Going all-in with millennial design</p>
+  <p className="w-[339px] h-[30px] ml-[50px] text-[20px] leading-[30px] ">Going all-in with millennial design</p>
   <div className="w-[130px] h-[46px] mr-[50px] underline font-bold text-[20px] border-black  text-center ml-[200px]">Read More</div>
   <div className="w-[223px] h-[24px] gap-[ml-[5px] ">
 <div className="w-[73px] h-[24px] flex">
   <div className="flex">
   <div className="flex gap-[20px] ml-[100px] ">
-<Image className=" ml-[30px] " src={"/Group (2).png"} alt="" width={15} height={10} /> 5.min
+<Image className=" ml-[50px] " src={"/Group (2).png"} alt="" width={15} height={10} /> 5.min
 </div>
 </div>
 <div className=" w-[132px] h-[24px] ml-[100px] flex">
@@ -220,10 +220,10 @@ font-medium leading-[36px]
 </div>
 
 {/* three pic */}
-<div className="w-[1240px] h-[679px] relative left-[947px] mt-[60px] ">
+<div className="w-[1240px] h-[679px] relative left-[947px] mr-[1400px] mt-[60px] ">
 <div className="w-[393px] h-[555px] ml-[100px]">
 <div className="w-[393px] h-[393px] ml-[100px] rounded-[10px]">
-<Image className=" mt-[-740px] " src={"/laptop2.png"} alt="" width={450} height={340} />
+<Image className=" mt-[-740px] mr-[400px] " src={"/laptop2.png"} alt="" width={450} height={340} />
 </div>
 <div className="w-[339px] h-[129px] ml-[px] ">
   <p className="w-[339px] h-[30px] ml-[130px] text-[20px] leading-[30px] ">Going all-in with millennial design</p>
@@ -276,18 +276,6 @@ font-medium leading-[36px]
 </div>
 
 
-
-
-
-
-
-
-
-
-
-
-
-        
     )
 }
    

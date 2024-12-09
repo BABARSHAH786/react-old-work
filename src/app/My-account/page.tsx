@@ -11,7 +11,7 @@ export default function SignUP() {
             <div>
             <div>
       <div>
-<Image className="  " src={"/background1.png"} alt="" width={1440} height={900} />
+<Image className="  " src={"/myacciunt.png"} alt="" width={1440} height={900} />
 </div>
 
 

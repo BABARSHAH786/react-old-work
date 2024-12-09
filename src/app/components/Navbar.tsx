@@ -3,90 +3,83 @@
 // export default function Navbar(){
 //     return(
 //       <div>
+//         <div>
+          
+//       {/* white work */}
+//       <div className=" bg-[rgb(254,252,245)]
+// w-[1170px] h-[38px] mt-10 relative left-[135px] flex">
+//         <div className="w-[674px] h-[24px] gap-[190px] flex ">
+//           {/* <p className="w-[118px] h-[24px] font-bold text-[24px] leading-[24px] flex"> */}
+            
+//           {/* </p> */}
+//           <div className="w-[367px] h-[24px] flex gap-[48px] justify-between ">
+//           <Link className="relative left-[45px]  "  href="/">Home</Link>
+//             <Link className="relative left-[45px]  " href="/contact">shop</Link>
+//             <Link className="relative left-[45px]  " href="/about">About</Link>
+//             <Link className="relative left-[45px]  " href="/signup">contact</Link>
+//             <Link className="relative left-[45px]  " href="/check">check</Link>
 
+//           </div>
+//         </div>
 //       </div>
 
 
+//  <div className="w-[1440px] h-[900px] mt-[100px] flex bg-[#FBEBB5]">
 
+//   <div className="w-[440px] h-[276px]  ml-[202px]">
 
-// //         <div>
-           
-        
-    
-
-// //       {/* white work */}
-// //       <div className=" bg-[rgb(254,252,245)]
-// // w-[1170px] h-[38px] mt-10 relative left-[135px] flex">
-// //         <div className="w-[674px] h-[24px] gap-[190px] flex ">
-// //           {/* <p className="w-[118px] h-[24px] font-bold text-[24px] leading-[24px] flex"> */}
-            
-// //           {/* </p> */}
-// //           <div className="w-[367px] h-[24px] flex gap-[48px] justify-between ">
-// //           <Link className="relative left-[45px]  "  href="/">Home</Link>
-// //             <Link className="relative left-[45px]  " href="/contact">shop</Link>
-// //             <Link className="relative left-[45px]  " href="/about">About</Link>
-// //             <Link className="relative left-[45px]  " href="/signup">contact</Link>
-// //             <Link className="relative left-[45px]  " href="/check">check</Link>
-
-// //           </div>
-// //         </div>
-// //       </div>
-
-
-// // {/* <div className="w-[1440px] h-[900px] mt-[100px] flex bg-[#FBEBB5]">
-
-// //   <div className="w-[440px] h-[276px]  ml-[202px]">
-
-// //     <p className="w-[440px] h-[192px] mt-[428px]  ml-[202px] font-medium leading-[96px]
-// //      text-[64px]"
-// //     >Rocket single seater </p>
+//     <p className="w-[440px] h-[192px] mt-[428px]  ml-[202px] font-medium leading-[96px]
+//      text-[64px]"
+//     >Rocket single seater </p>
   
-// //   <div className="w-[440px] h-[276px]  ml-[202px] border-black" >
-// // <p className="w-[121px] h-[36px]  text-black ml-[206px]
-// //  font-medium leading-[36px]
-// //      text-[24px]">Shop Now</p>
-// //        </div>
+//   <div className="w-[440px] h-[276px]  ml-[202px] border-black" >
+// <p className="w-[121px] h-[36px]  text-black ml-[206px]
+//  font-medium leading-[36px]
+//      text-[24px]">Shop Now</p>
+//        </div>
 
-// //      </div>
-// //      <div className="w-[853px] ml-10">
-// //      <Image className="pt-[14px] pr-[190px]  " src={"/image 1.png"} alt="" width={853} height={1000} />
-// //   </div>
-// //   </div>    */}
-// //   {/* 2 page */}
-// //   {/* <div className="w-[1440px] h-[672px] mt-[996px] bg-white"  > 
-// // <div className="w-[605px] h-[552px] mt-[1047px] flex  ml-[100px]"> 
-// //   <div  className="w-[1092px] h-[1641px] mt-[122px]  ml-[-54px]"> 
+//      </div>
+//      <div className="w-[853px] ml-10">
+//      <Image className="pt-[14px] pr-[190px]  " src={"/image 1.png"} alt="" width={853} height={1000} />
+//   </div>
+//   </div>    
+//   {/* 2 page */}
+//    <div className="w-[1440px] h-[672px] mt-[996px] bg-white"  > 
+// <div className="w-[605px] h-[552px] mt-[1047px] flex  ml-[100px]"> 
+//   <div  className="w-[1092px] h-[1641px] mt-[122px]  ml-[-54px]"> 
     
-// //   <Image className="pt-[14px] pr-[190px]  " src={"/image 2.png"}
-// //    alt="" width={853} height={1000} />
-// //   </div>
-// //   </div>
-// //   <p className="w-[182px] h-[54px] mt-[px]  ml-[205px] font-medium leading-[36px]
-// //      text-[24px] ">
-// //   Side table </p>
-// //   <p className="w-[182px] h-[54px] mt-[px]  ml-[205px] font-medium leading-[36px]
-// //      text-[24px] ">View More</p>
+//   <Image className="pt-[14px] pr-[190px]  " src={"/image 2.png"}
+//    alt="" width={853} height={1000} />
+//   </div>
+//   </div>
+//   <p className="w-[182px] h-[54px] mt-[px]  ml-[205px] font-medium leading-[36px]
+//      text-[24px] ">
+//   Side table </p>
+//   <p className="w-[182px] h-[54px] mt-[px]  ml-[205px] font-medium leading-[36px]
+//      text-[24px] ">View More</p>
 
-// // <div className="w-[605px] flex h-[562px] mt-[px]  ml-[735px]" > 
-// //   <div>
-// //   <Image className="pt-[14px] pr-[190px] mt-[-440px] " src={"/image 3.png"}
-// //    alt="" width={853} height={1000} />
-// //   </div>
-// // </div>
-// // <p className="w-[182px] flex h-[54px] mt-[-440px]  ml-[205px] font-medium leading-[36px]
-// //      text-[24px] ">
-// //   Side table </p>
-// //   <p className="w-[182px] flex h-[54px] mt-[-540px]  ml-[505px] font-medium leading-[36px]
-// //      text-[24px] ">View More</p>
+// <div className="w-[605px] flex h-[562px] mt-[px]  ml-[735px]" > 
+//   <div>
+//   <Image className="pt-[14px] pr-[190px] mt-[-440px] " src={"/image 3.png"}
+//    alt="" width={853} height={1000} />
+//   </div>
+// </div>
+// <p className="w-[182px] flex h-[54px] mt-[-440px]  ml-[205px] font-medium leading-[36px]
+//      text-[24px] ">
+//   Side table </p>
+//   <p className="w-[182px] flex h-[54px] mt-[-540px]  ml-[505px] font-medium leading-[36px]
+//      text-[24px] ">View More</p>
  
-// //   </div> */}
-// //   </div>
+//   </div> 
+//   </div>
 
-  
+//         </div>
+
          
 //     )
 // }
 
+// change navbar
 'use client';
 import Link from 'next/link';
 import React, { useState } from 'react';
@@ -113,14 +106,15 @@ export default function Navbar() {
             <li>
               <Link href="/">Home</Link>
             </li>
-            <li>
-              <Link href="/Pages/shop">Shop</Link>
-            </li>
+           <li >
+              <Link href="/shop">Shop</Link>
+           </li>
+            
             <li>
               <Link href="#">About</Link>
             </li>
             <li>
-              <Link href="/Pages/contact">Contact</Link>
+              <Link href="/contact">Contact</Link>
             </li>
           </ul>
         </div>
@@ -136,9 +130,9 @@ export default function Navbar() {
           <Link href="#">
             <CiHeart />
           </Link>
-          <Link href="/shop">
+          
             <CiShoppingCart />
-          </Link>
+          
         </div>
       </div>
 
@@ -163,7 +157,7 @@ export default function Navbar() {
             </Link>
           </li>
           <li>
-            <Link href="/Pages/shop" onClick={() => setIsMenuOpen(false)}>
+            <Link href="/shop" onClick={() => setIsMenuOpen(false)}>
               Shop
             </Link>
           </li>

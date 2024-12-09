@@ -41,7 +41,7 @@ font-medium leading-[36px]
 
 <div className="max-ss:ml-0 max-ss:mt-[290px] w-[605px]  h-[562px] mt-[px]  ml-[735px]" > 
   <div>
-  <Image className="pt-[14px] pr-[190px] mt-[-540px] " src={"/image 3.png"}
+  <Image className="pt-[14px] pr-[190px] mt-[-540px] " src={"/image 4.png"}
    alt="" width={853} height={1000} />
        <p className="ml-[150px]">Side table</p>
        <p className="ml-[150px]">View More</p>
@@ -58,7 +58,7 @@ font-medium leading-[36px]
      text-[24px] ">Top Picks For You</p>
      <div className="flex max-ss:grid max-ss:h-[1420px] ">
      <div className="w-[287px] h-[372px] ml-[100px]">
-     <Image className="  " src={"/image 4.png"} alt="" width={450} height={340} />
+     <Image className="  " src={"/al.png"} alt="" width={450} height={340} />
   <div className="w-[194px] h-[71px] ml-[100px] mt-[px]"> 
     <p className="text-[16px] leading-[24px]">Trenton modular sofa_3</p>
     <p className="text-[24px] leading-[36px]">Rs. 25,000.00</p>
